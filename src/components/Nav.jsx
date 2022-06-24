@@ -1,3 +1,5 @@
+import resume from '../assets/Lyndsey-Clevesy-Resume.pdf'; 
+
 export default function Nav ({setCurrentPage}) {
     return (
         <nav className='navbar' role='navigation' aria-label='main navigation'>
@@ -11,6 +13,7 @@ export default function Nav ({setCurrentPage}) {
                             <button className='button is-link is-inverted' onClick={() => {setCurrentPage('about');}}>ABOUT</button>
                             <button className='button is-link is-inverted' onClick={() => {setCurrentPage('projects');}}>PROJECTS</button>
                             <button className='button is-link is-inverted' onClick={() => {setCurrentPage('contact');}}>CONTACT</button>
+                            <button className='button is-link is-inverted' onClick={() => window.open(resume)}>RESUME</button>
                         </div>
                     </div>
                 </div>

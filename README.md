@@ -6,7 +6,7 @@ My personal portfolio website that gives information about me, my projects, and 
 
 ## Deployed Application 
 
-You can visit the site here: https://lyndsclev.github.io/react-portfolio-lc/. 
+You can visit the site here: https://lyndsclev.github.io/portfolio. 
 
 ## Questions 
 
